@@ -86,7 +86,7 @@ And of course Cinema itself is open source with a public repository on GitHub.
 
 
 ## Details
-* GitHub Page: [https://alejeindrox.github.io/cinema](https://alejeindrox.github.io/cinema).
+* GitHub Page: [https://alejeindrox.github.io/cinema](https://alejeindrox.github.io/Cinema).
 
 
 ## Authors

@@ -6,7 +6,6 @@ import { Router, } from '@reach/router';
 import Discover from './pages/discover';
 import Search from './pages/search';
 import Rate from './pages/rate';
-// import Detail from './pages/detail';
 import Layout from './components/layout/layout';
 import MenuContainer from './components/menu/menuContainer';
 import './App.css';
@@ -21,7 +20,7 @@ const App = () => {
             <Discover path="/" />
             <Search path="search" />
             <Rate path="rate" />
-            {/* <Detail path="detail/:id" /> */}
+            <Discover default />
           </Router>
         </Layout>
       </PersistGate>

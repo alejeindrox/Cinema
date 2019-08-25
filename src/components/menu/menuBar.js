@@ -9,7 +9,7 @@ const MenuBar = ({ handleMenuDrawer, }) => {
         <IconButton color="inherit" onClick={() => handleMenuDrawer()} aria-label="open drawer" edge="start">
           <MenuIcon />
         </IconButton>
-        <Typography variant="h5" childre="Cinema" />
+        <Typography variant="h5" children="Cinema" />
       </Toolbar>
     </AppBar>
   );
