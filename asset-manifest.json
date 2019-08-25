@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cinema/static/css/main.95f1dfe1.chunk.css",
+    "main.js": "/Cinema/static/js/main.2a83dc05.chunk.js",
+    "main.js.map": "/Cinema/static/js/main.2a83dc05.chunk.js.map",
+    "runtime~main.js": "/Cinema/static/js/runtime~main.efd9e64a.js",
+    "runtime~main.js.map": "/Cinema/static/js/runtime~main.efd9e64a.js.map",
+    "static/js/2.b22631f4.chunk.js": "/Cinema/static/js/2.b22631f4.chunk.js",
+    "static/js/2.b22631f4.chunk.js.map": "/Cinema/static/js/2.b22631f4.chunk.js.map",
+    "index.html": "/Cinema/index.html",
+    "precache-manifest.01effdc9c98a9f675ccfa6b5504eef3b.js": "/Cinema/precache-manifest.01effdc9c98a9f675ccfa6b5504eef3b.js",
+    "service-worker.js": "/Cinema/service-worker.js",
+    "static/css/main.95f1dfe1.chunk.css.map": "/Cinema/static/css/main.95f1dfe1.chunk.css.map"
+  }
+}
