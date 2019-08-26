@@ -7,8 +7,6 @@ importScripts("/Cinema/precache-manifest.c7bbc3bf13606a35489b980eb12f07dd.js", "
  */
 
 // Preload App
-workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug);
-
 self.addEventListener('install', event => event.waitUntil(self.skipWaiting()));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
 
