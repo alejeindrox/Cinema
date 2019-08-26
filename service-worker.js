@@ -7,9 +7,12 @@ importScripts("/Cinema/precache-manifest.c7bbc3bf13606a35489b980eb12f07dd.js", "
  */
 
 // Preload App
-self.__precacheManifest = [].concat(self.__precacheManifest || [])
-workbox.precaching.suppressWarnings()
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
+workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug);
+
+self.addEventListener('install', event => event.waitUntil(self.skipWaiting()));
+self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
+
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // App Shell
 workbox.routing.registerNavigationRoute('/index.html')
